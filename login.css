@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.parent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 90px 3px;
+}
+.parent .login{
+    height: 4em;
+    width: 9em;
+    padding-top: 15px;
+    text-transform: capitalize;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+    text-align: center;
+}
+.parent .login a{
+    text-decoration: none;
+}
+.parent .register{
+    height: 4em;
+    width: 9em;
+    padding-top: 15px;
+    text-transform: capitalize;
+    border: 1px solid black;
+    text-align: center;
+}
+.parent .register a{
+    text-decoration: none;
+}
+.form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,1 @@
+alert("Please choose Login if an existing user OR Registration if a new user ")
